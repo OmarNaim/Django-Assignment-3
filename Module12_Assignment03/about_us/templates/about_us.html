@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block head %}
+    <link rel="stylesheet" href="{% static 'css/about_us_style.css' %}">
+{% endblock %}
+
+{%block content%}
+
+
+
+    <div class="contain">
+        <!-- <div class="pics">
+            <img class="res-img" src="{% static 'img/restaurant.png' %}" alt="pic">
+        </div> -->
+        <div class="circle">
+            <img class="res-img" src="{% static 'img/pizza.png' %}" alt="pic">
+        </div>
+        
+    
+        <div class="description">
+            <h1>ABOUT US</h1>
+            
+            <h1>We are Gourmet Heaven</h1>
+            <p>Address: 123 Main Street, Cityville, USA</p>
+            
+            <ul>
+                <li>Opening Hours:</li>
+                <li>Monday - Thursday: 11:00 AM - 9:00 PM</li>
+                <li>Friday - Saturday: 11:00 AM - 10:00 PM</li>
+                <li>Sunday: 12:00 PM - 8:00 PM</li>
+            </ul>
+            <p>Phone Number: +1 (555) 123-4567</p>
+        </div>
+
+        
+    </div>
+
+
+{%endblock%}
+
+

@@ -1,0 +1,37 @@
+.description{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar{
+    background-color: #ff8f34;
+}
+
+.contain{
+    background-color: #4d4d4d;
+    height: 800px;
+    display: flex;
+    padding-top: 50px;
+    color: white;
+
+}
+
+.res-img{
+   width: 45%;
+}
+
+
+.circle{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+

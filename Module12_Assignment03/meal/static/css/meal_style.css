@@ -1,0 +1,27 @@
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.navbar{
+    background-color: #ff8f34;
+}
+
